@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    color: var(--Paragraph-Color);
+    font-family: var(--Secondary-Roboto-Mono-Font);
+    font-weight: normal;
+}
+
+body {
+    background-color: var(--Primary-Background-Color);
+}
+
+::selection {
+    background-color: var(--Secondary-Background-Accent);
+    color: var(--Heading-Color);
+}

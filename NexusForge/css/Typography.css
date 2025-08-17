@@ -1,0 +1,57 @@
+:root {
+    --Primary-Background-Color: #0F0F1A;
+    /* Deeper midnight blue for a richer base */
+    --Secondary-Background-Accent: #2A2A3C;
+    /* Softer purple-gray accent for contrast */
+    --Heading-Color: #B0B0C0;
+    /* Slightly warmer white for headings */
+    --Paragraph-Color: #b0b0c067;
+    /* Lighter gray with a hint of blue for readability */
+    --Accent-Text-Color: #00E1CC;
+    /* Softer neon teal for a futuristic glow */
+    --Primary-Orbitron-Font: 'Orbitron', sans-serif;
+    /* Futuristic font specified */
+    --Secondary-Roboto-Mono-Font: 'Roboto Mono', monospace;
+    /* Clean monospace font specified */
+    --HOne-Headings: 6rem;
+    /* 40px as rem for scalability */
+    --HTwo-Subheadings: 1.75rem;
+    /* 28px adjusted to rem with slight tweak */
+    --Paragraphs-font: 1rem;
+    /* 16px as rem */
+    --Small-Text: 0.875rem;
+    /* 14px adjusted to rem */
+    --Headings-line-Spacing: 1.6;
+    /* Slightly increased for elegance */
+    --Paragraphs-line-Spacing: 1.6;
+    /* Consistent with headings for harmony */
+    --text-shadow: 0 0 5px #00e1ca18, 0 0 40px #2A2A3C;
+    /* Enhanced neon shadow effect */
+    --Paragraphs-Margin-Top: 1.5rem;
+    /* Unchanged for consistency */
+}
+
+.df-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.df-c-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.style-title {
+    color: var(--Heading-Color);
+    font-size: var(--HOne-Headings);
+    line-height: var(--Headings-line-Spacing);
+}
+
+.style-paragraph {
+    color: var(--Paragraph-Color);
+    font-size: var(--Paragraphs-font);
+    line-height: var(--Paragraphs-line-Spacing);
+    margin-top: var(--Paragraphs-Margin-Top);
+}
