@@ -31,7 +31,7 @@ https://www.patreon.com/posts/build-your-first-136670272?utm_medium=clipboard_co
 
 ## 📽 Watch the Tutorial
 
-🎥 YouTube: https://youtu.be/Lf7pE1WHh2I
+🎥 YouTube: https://youtu.be/X4rpzlabzaU
 
 ## 📽 Live Preview
 
